@@ -5,7 +5,7 @@
  * 默认执行的控制器
  */
 return [
-   'CTRL' => 'index',
+   'CTRL' => 'main',
    'ACTION' => 'index'
 ];
 ?>

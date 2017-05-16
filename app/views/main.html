@@ -1,5 +1,79 @@
 {% include "inc/head.html" %}
 {% include "inc/menu.html" %}
+<style>
+    body,div,img,table,a,button {
+        margin : 0px;
+        padding:0px;
+    }
+    .row {
+        width:100%;
+    }
+    .mediums-2 {
+        background-color:red;
+    }
+    body {
+        background:#F5F5F5;
+    }
+</style>
 
-<div class="row"><h1>{{ data }}</h1></div>
+<div class="container" style="width:100%;text-align:center;">
+    <div style="width:300px;position:fixed;right:0;background:#fff;height:6000px">
+        <div class="row" style="background: #4d4d4d; height:180px;"></div>
+        <div class="row" style="text-align:center;padding:20px">
+            <h3 class="subheader">Sinnoo</h3>
+        </div>
+        <div class="row" style="text-align:center;padding:20px">
+            <h5 class="subheader">苟且与田野,喂马和劈柴</h5>
+        </div>
+        <div class="row">
+            <ul class="side-nav">
+                <li class="active"><a class="a" href="#">主页</a></li>
+                <li><a class="a right-off-canvas-toggle menu-icon" href="#">所有文章</a></li>
+                <li><a class="a" href="#">关于我</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--左侧内容-->
+    <div style="margin-right:301px;float:right;border: solid 35px  #F0F0F0;height:6000px;width:80%;background:#FFF">
+        <div class="off-canvas-wrap" data-offcanvas style="width:100%">
+            <div class="inner-wrap">
+                <nav class="tab-bar" style="background: #FFF none repeat scroll 0 0;color:#F0F0F0;border-left:solid 5px #000; height:80px;">
+                    <section class="middle tab-bar-section" style="">
+                        <h1 class="subheader" style="color:red">刷卡机的返回可使肌肤</h1>
+                    </section>
+                </nav>
+                <aside class="right-off-canvas-menu">
+                    <ul class="off-canvas-list test">
+                        <li><label>Heading</label></li>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 8</a></li>
+                    </ul>
+                </aside>
+
+                <section class="main-section">
+                    <!--主要内容开始-->
+                    <div class="row">
+                        <div class="medium-4 columns">
+                            <h3>菜鸟教程</h3>
+                            <p>学的不仅是技术，更是梦想！！！</p>
+                        </div>
+                        <div class="medium-4 columns">
+                            <h3>菜鸟教程</h3>
+                            <p>学的不仅是技术，更是梦想！！！</p>
+                        </div>
+                        <div class="medium-4 columns">
+                            <h3>菜鸟教程</h3>
+                            <p>学的不仅是技术，更是梦想！！！</p>
+                        </div>
+                    </div>
+                    <!--主要内容结束-->
+                </section>
+                <a class="exit-off-canvas"></a>
+            </div>
+        </div>
+    </div>
+    <!--左侧内容end-->
+
+
+</div>
 {% include "inc/foot.html" %}
